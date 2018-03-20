@@ -1,0 +1,143 @@
+dump	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^function dump($value)$/;"	function	line:3
+Map	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^ class Map$/;"	class	line:23
+zoneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $zoneArray               = array();$/;"	variable	line:25
+zoneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $zoneArray               = array();$/;"	variable	line:25
+playerDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $playerDroneArray        = array();$/;"	variable	line:26
+playerDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $playerDroneArray        = array();$/;"	variable	line:26
+enemyArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $enemyArray              = array();$/;"	variable	line:27
+enemyArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $enemyArray              = array();$/;"	variable	line:27
+playerScoreArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $playerScoreArray        = array();$/;"	variable	line:28
+playerScoreArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $playerScoreArray        = array();$/;"	variable	line:28
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $playerId;$/;"	variable	line:29
+playerCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $playerCount;$/;"	variable	line:30
+zoneCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $zoneCount;$/;"	variable	line:31
+__construct	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function __construct($playerCount, $playerId, $droneCount, $zoneArray)$/;"	function	line:40
+playerCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->playerCount = $playerCount;$/;"	variable	line:42
+playerScoreArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->playerScoreArray = array_fill(0,$playerCount,0);$/;"	variable	line:43
+zoneCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->zoneCount   = count($zoneArray);$/;"	variable	line:44
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($zoneArray as $id => $coordinates){$/;"	variable	line:45
+droneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $droneArray = array();$/;"	variable	line:49
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->playerId = $playerId;$/;"	variable	line:55
+initTurn	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function initTurn()$/;"	function	line:58
+dumpStatus	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function dumpStatus()$/;"	function	line:64
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->playerDroneArray as $playerId => $droneArray){$/;"	variable	line:66
+droneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       foreach ($droneArray as $droneId => $drone){$/;"	variable	line:68
+zoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->zoneArray as $zoneId => $zone){$/;"	variable	line:72
+echoRoot	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function echoRoot($dronId)$/;"	function	line:77
+zoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $zoneId = $this->playerDroneArray[$this->playerId][$dronId]->getNextRootZoneId();$/;"	variable	line:79
+zone	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $zone = $this->zoneArray[$zoneId];$/;"	variable	line:80
+createRoot	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function createRoot()$/;"	function	line:90
+assignArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $assignArray = array();$/;"	variable	line:92
+count	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $count = 0; \/\/同じプレイヤーのドローンで設定済みのドローンの数$/;"	variable	line:93
+getSortedZoneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private function getSortedZoneIdArray($x, $y)$/;"	function	line:110
+diffArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $diffArray = array();$/;"	variable	line:112
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach($this->zoneArray as $id => $zone){$/;"	variable	line:113
+getDistance	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   static public function getDistance($x1, $y1, $x2, $y2)$/;"	function	line:123
+updateDrone	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function updateDrone($playerId, $droneId, $x, $y)$/;"	function	line:132
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->zoneArray as $id => &$zone){$/;"	variable	line:137
+updateScore	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function updateScore($zoneId, $playerId)$/;"	function	line:146
+Zone	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^ class Zone$/;"	class	line:154
+x	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public $x;$/;"	variable	line:156
+y	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public $y;$/;"	variable	line:157
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $id;$/;"	variable	line:158
+takePlayerDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $takePlayerDroneArray  = array();       \/\/占拠中のdroneの配列$/;"	variable	line:159
+takePlayerDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $takePlayerDroneArray  = array();       \/\/占拠中のdroneの配列$/;"	variable	line:159
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $ownerPlayerId         = -1;           \/\/ポイントゲット中のプレイヤー$/;"	variable	line:160
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $ownerPlayerId         = -1;           \/\/ポイントゲット中のプレイヤー$/;"	variable	line:160
+asignOwnDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $asignOwnDroneIdArray  = array(); \/\/このZoneを目指す自分のDroneのID(1ターン前の話)$/;"	variable	line:161
+asignOwnDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $asignOwnDroneIdArray  = array(); \/\/このZoneを目指す自分のDroneのID(1ターン前の話)$/;"	variable	line:161
+distanceArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $distanceArray         = array(); \/\/各ドローンとの距離$/;"	variable	line:162
+distanceArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $distanceArray         = array(); \/\/各ドローンとの距離$/;"	variable	line:162
+__construct	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function __construct($x, $y, $id)$/;"	function	line:164
+x	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->x   = $x;$/;"	variable	line:166
+y	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->y   = $y;$/;"	variable	line:167
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->id  = $id;$/;"	variable	line:168
+dumpStatus	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function dumpStatus()$/;"	function	line:174
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->takePlayerDroneArray as $playerId => $droneArray){$/;"	variable	line:177
+count	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $count = count($droneArray);$/;"	variable	line:178
+count	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $count = count($this->asignOwnDroneIdArray);$/;"	variable	line:185
+implode	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $implode = implode(",", $this->asignOwnDroneIdArray);$/;"	variable	line:186
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->distanceArray as $playerId => $distance){$/;"	variable	line:190
+distArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $distArray = array_map('round', $distance);$/;"	variable	line:191
+distString	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $distString = implode(",",$distArray);$/;"	variable	line:192
+getOnwerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getOnwerPlayerId(){return $this->ownerPlayerId;}$/;"	function	line:198
+getId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getId(){return $this->id;}$/;"	function	line:199
+getTakeDroneCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getTakeDroneCount($playerId = null, $isEstimate = false, $doneCount = 0)$/;"	function	line:207
+isEstimate	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getTakeDroneCount($playerId = null, $isEstimate = false, $doneCount = 0)$/;"	variable	line:207
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       return $this->ownerPlayerId === -1 ? 0 : $this->ownerPlayerId;$/;"	variable	line:210
+now	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^         $now = count($this->takePlayerDroneArray[$playerId]);$/;"	variable	line:214
+removeCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^         $removeCount = $doneCount - count($this->asignOwnDroneIdArray);$/;"	variable	line:215
+resetAsignOwnDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function resetAsignOwnDroneIdArray()$/;"	function	line:224
+asignOwnDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->asignOwnDroneIdArray  = array();$/;"	variable	line:226
+getOwnerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getOwnerPlayerId()$/;"	function	line:230
+setOwner	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function setOwner($playerId)$/;"	function	line:235
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->ownerPlayerId = $playerId;$/;"	variable	line:237
+initTurn	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function initTurn($playerCount)$/;"	function	line:243
+takePlayerDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->takePlayerDroneArray = array_fill(0, $playerCount, array());$/;"	variable	line:245
+distanceArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->distanceArray        = array_fill(0, $playerCount, array());$/;"	variable	line:246
+setAssign	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function setAssign($droneId)$/;"	function	line:254
+unsetAssign	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function unsetAssign($droneId)$/;"	function	line:259
+isAdd	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     * $isAdd = falseの場合、合計何台でコントロールできるかを返す$/;"	variable	line:267
+isAdd	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     * $isAdd = trueの場合、あと何台追加するとコントロールできるかを返す$/;"	variable	line:268
+getNeedTakeCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getNeedTakeCount($myPlayerId, $isAdd = true, array $ignoreDroneIdArray = array())$/;"	function	line:273
+isAdd	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getNeedTakeCount($myPlayerId, $isAdd = true, array $ignoreDroneIdArray = array())$/;"	variable	line:273
+droneCountArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $droneCountArray = array();$/;"	variable	line:275
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->takePlayerDroneArray as $playerId => $playerInfo){$/;"	variable	line:277
+ignoreDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^         $ignoreDroneIdArray = array(); \/\/次回以降最初のif文で分岐が終わる$/;"	variable	line:284
+ownCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $ownCount = 0;$/;"	variable	line:291
+ownCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $ownCount = $droneCountArray[$myPlayerId];$/;"	variable	line:293
+getNeedAsignCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getNeedAsignCount($myPlayerId, array $ignoreDroneIdArray = array())$/;"	function	line:308
+ignoreDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getNeedAsignCount($myPlayerId, array $ignoreDroneIdArray = array())$/;"	variable	line:308
+asignArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $asignArray = $this->getAsignDroneArray($isIgnoreTake = true, $ignoreDroneIdArray);$/;"	variable	line:310
+needTakeCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $needTakeCount = $this->getNeedTakeCount($myPlayerId, true, $ignoreDroneIdArray);$/;"	variable	line:311
+getAsignDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getAsignDroneArray($myPlayerId, $isIgnoreTake, $ignoreDroneIdArray = array())$/;"	function	line:321
+ignoreDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getAsignDroneArray($myPlayerId, $isIgnoreTake, $ignoreDroneIdArray = array())$/;"	variable	line:321
+asignOwnDroneIdArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $asignOwnDroneIdArray = $this->asignOwnDroneIdArray;$/;"	variable	line:323
+ignoreArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $ignoreArray = $ignoreDroneIdArray;$/;"	variable	line:324
+ignoreArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     if ($isIgnoreTake) $ignoreArray = array_merge($ignoreArray,$this->takePlayerDroneArray[$myPlayerId]);$/;"	variable	line:325
+updateTakePlayerDroneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function updateTakePlayerDroneArray($playerId, $droneId, $x, $y)$/;"	function	line:337
+getDistanceRank	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getDistanceRank(Drone $drone)$/;"	function	line:351
+rankPointArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $rankPointArray = array_fill(0, count($this->distanceArray),0);$/;"	variable	line:353
+baseDistance	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $baseDistance = $this->distanceArray[$drone->getOwnerPlayerId()][$drone->getId()];$/;"	variable	line:354
+playerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     foreach ($this->distanceArray as $playerId => $playerInfo){$/;"	variable	line:355
+droneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       foreach ($playerInfo as $droneId => $distance){$/;"	variable	line:356
+keyArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $keyArray = array_keys($rankPointArray);$/;"	variable	line:361
+Drone	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^ class Drone$/;"	class	line:365
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $ownerPlayerId;$/;"	variable	line:367
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $id;$/;"	variable	line:368
+x	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public $x;$/;"	variable	line:369
+y	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public $y;$/;"	variable	line:370
+preX	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $preX;$/;"	variable	line:371
+preY	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $preY;$/;"	variable	line:372
+nextRootZoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $nextRootZoneId;$/;"	variable	line:373
+rootValueArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $rootValueArray = array(); \/\/ルートの優先順位配列$/;"	variable	line:374
+rootValueArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private $rootValueArray = array(); \/\/ルートの優先順位配列$/;"	variable	line:374
+__construct	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function __construct($ownerPlayerId, $id)$/;"	function	line:377
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->ownerPlayerId = $ownerPlayerId;$/;"	variable	line:379
+id	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->id            = $id;$/;"	variable	line:380
+getOwnerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getOwnerPlayerId(){return $this->ownerPlayerId;}$/;"	function	line:383
+getNextRootZoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getNextRootZoneId(){return $this->nextRootZoneId;}$/;"	function	line:384
+setNextRootZoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function setNextRootZoneId($zoneId){$this->nextRootZoneId = $zoneId;}$/;"	function	line:385
+getId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function getId(){return $this->id;}$/;"	function	line:386
+isOwner	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private function isOwner(Zone $zone)$/;"	function	line:388
+ownerPlayerId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     return $this->ownerPlayerId === $zone->getOnwerPlayerId();$/;"	variable	line:390
+setRootValue	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function setRootValue(Zone $zone, $doneCount)$/;"	function	line:397
+needAsignCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $needAsignCount = $zone->getNeedAsignCount($this->ownerPlayerId, array($this->id));$/;"	variable	line:409
+rankPoint	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $rankPoint = $this->getDistanceRankValue($zone, 10);$/;"	variable	line:427
+addRootValue	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private function addRootValue($zoneId, $value)$/;"	function	line:436
+getDistanceRankValue	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private function getDistanceRankValue(Zone $zone, $baseValue)$/;"	function	line:445
+rank	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $rank = $zone->getDistanceRank($this);$/;"	variable	line:447
+isTakenByMove	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   private function isTakenByMove(Zone $zone, $myPlayerId)$/;"	function	line:457
+needTakeCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       $needTakeCount = $zone->getNeedTakeCount($myPlayerId, false);$/;"	variable	line:460
+needTakeCount	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^       if ( $needTakeCount === $zone->getTakeDroneCount($myPlayerId, true)){$/;"	variable	line:463
+setNextRoot	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function setNextRoot()$/;"	function	line:471
+zoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $zoneId = key($this->rootValueArray);$/;"	variable	line:477
+nextRootZoneId	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->nextRootZoneId = $zoneId;$/;"	variable	line:479
+updateCoordinate	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^   public function updateCoordinate($x, $y, $zoneCount)$/;"	function	line:487
+preX	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->preX = $this->x;$/;"	variable	line:489
+preY	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->preY = $this->y;$/;"	variable	line:490
+x	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->x = $x;$/;"	variable	line:491
+y	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->y = $y;$/;"	variable	line:492
+rootValueArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^     $this->rootValueArray = array_fill(0,$zoneCount,0);$/;"	variable	line:493
+zoneArray	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^$zoneArray = array();$/;"	variable	line:503
+map	/Users/kuesugi/Dropbox/Program/codinGame/dron/first.php	/^$map = new Map($P, $ID, $D, $zoneArray);$/;"	variable	line:512
